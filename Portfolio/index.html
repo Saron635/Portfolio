@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css" >
+    
+</head>
+<body>
+    <!-- header section -->
+    <header>
+        <div class="user">
+            <img src="image/img1.JPG" alt="this is me">
+            <h3 class="name">Saron Meseret</h3>
+            <p class="post">Software Engineering Student</p>
+        </div>
+
+        <nav class="navbar">
+            <ul >
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- end of header section -->
+    <div id="menu" class="fas fa-bars">Menu</div>
+<!-- home section start -->
+<section class="home"  id="home">
+    <h3>HI THERE !</h3>
+    <h1>I'M <span> Saron Meeseret</span></h1>
+    <p>I'm currently a software engineering student at AASTU</p>
+    <a href="#about"><button class="btn">About Me <i class="fas fa-user"></i></button></a>
+</section>
+
+<!-- end of home section -->
+
+
+<!-- about selection starts -->
+<selection class="about" id="about">
+    <h1 class="heading"><span>About</span> Me</h1>
+    <div class="row">
+        <div class="info">
+            <h3><span>Name:</span> Saron Meseret</h3>
+            <h3><span>Age:</span> 21</h3>
+            <h3><span>Qualification:</span>Student</h3>
+            <h3><span>Post:</span> Front End Developer</h3>
+            <h3><span>Language:</span>Amharic & English</h3>
+            <a href="#contact"><button class="btn">Download CV <i class="fas fa-download"></i></button></a>
+        </div>
+        <div class="counter">
+            <div class="box">
+                <span>2+</span>
+                <h3>years of experiance</h3>
+            </div>
+            <div class="box">
+                <span>1+</span>
+                <h3>A class group projects</h3>
+            </div>
+        </div>
+    </div>
+</selection>
+<!-- end of about selection -->
+<br><br><br><br><br><br><br><br><br><br><br><br>
+
+<!-- start of contact secton -->
+<section class="contact" id="contact">
+    <h1 class="heading">My<span> Contact</span></h1>
+    <div class="row">
+        <div class="content">
+            <h3 class="title">Contact Info</h3>
+            <div class="info">
+                <h3><i class="fas fa-envelope"></i>saronawoke635@gmail.com</h3>
+                <h3><i class="fas fa-phone"></i> +251-912-443-297</h3>
+                <h3><i class="fas fa-map-marker-alt"></i> AA ,Ethiopia</h3>
+            </div>
+        </div>
+        
+            <form action="receive.php" method="POST">
+                <input type="text" placeholder="name" class="box" class="name">
+                <input type="email" placeholder="email" class="box" class="email">
+                <input type="text" placeholder="project" class="box" class="peoject">
+                <textarea name="" id="" cols="30" rows="10" class="box message" placeholder="message" class="message"></textarea>
+                <button type="submit" name="save" class="btn">Send <i class="fas fa-paper-plane"></i></button>
+            </form>
+        
+    </div>
+
+
+</section>
+
+<!-- end of contact section -->
+
+    
+    
+
+
+
+
+
+<!-- jquery cdn link -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<!-- custom js file link -->
+<script src="index.js"></script>
+</body>
+</html>
